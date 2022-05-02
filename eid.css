@@ -1,0 +1,33 @@
+* {
+    overflow: hidden;
+}
+.wrap {background: linear-gradient(46deg, black, #4266a1);padding: 3px;min-height: 100vh;overflow: hidden;display: flex;flex-direction: column;text-align: center;align-items: center;justify-content: center;}
+
+.text {display: block;text-align: center;margin: 2rem 0;}
+
+p {font-size: 1.4rem;font-weight: 600;color: #314b77;border: 1px solid #fff;background: #fff;outline: none;margin: 14px;padding: 3px;border-radius: 52px;box-shadow: 1px 3px 4px #8080807d;margin-bottom: 2rem;}
+
+p {}
+
+span {font-size: 3rem;letter-spacing: 5px;color: #fff;font-weight: 900;display: block;z-index: 444;}
+
+
+.mosque {width: 100%;}
+
+.moon {
+    position: absolute;
+    top: 18%;
+    /* z-index: -444; */
+    width: 564px;
+}
+@media only screen and (min-width: 1000px) {
+    .wrap{
+        flex-direction: row;
+    }
+    .moon{
+        top: -23%;
+    }
+}
+span.name {
+    font-size: 11px;
+}
